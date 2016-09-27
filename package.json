@@ -1,0 +1,24 @@
+{
+  "name": "rose-tinted",
+  "version": "1.0.0",
+  "description": "Rose Tinted CMS built with AWS services",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.4",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "deploy": "cd serverless && serverless deploy",
+    "start": "nodemon server.js"
+  },
+  "author": "Ruben Rickard",
+  "license": "ISC"
+}
