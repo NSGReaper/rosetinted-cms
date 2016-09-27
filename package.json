@@ -1,7 +1,7 @@
 {
   "name": "rose-tinted",
   "version": "1.0.0",
-  "description": "Rose Tinted CMS built with AWS services",
+  "description": "A learning project to create a simple blogging system with a react front end and serverless backend.",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2"
   },
   "scripts": {
     "test": "mocha",
@@ -20,5 +21,9 @@
     "start": "nodemon server.js"
   },
   "author": "Ruben Rickard",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/NSGReaper/rosetinted-cms.git"
+  }
 }
